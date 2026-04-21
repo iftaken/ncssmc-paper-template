@@ -4,7 +4,7 @@
 
 ## 项目说明
 
-本项目是**华中杯数学建模竞赛**的LaTeX模板，基于 `cumcmthesis.cls` 改造，适配了 `chapters/` 目录管理结构。
+本项目是**中国大学生统计建模大赛**的LaTeX模板，基于 `cumcmthesis.cls` 改造，适配了 `chapters/` 目录管理结构。
 
 ## 约定
 
@@ -17,10 +17,9 @@ COMPILE_CMD: tectonic -X compile main.tex
 ```
 .
 ├── main.tex              # 论文主文件（入口）
-├── main.cls              # 文档类文件（华中杯模板核心）
+├── main.cls              # 文档类文件（统计建模大赛模板核心）
 ├── main.pdf              # 编译输出
 ├── references.bib        # 参考文献数据库
-├── cumcmthesis.cls       # 原始华中杯模板（参考用）
 ├── example.tex           # 官方示例（参考用）
 └── chapters/             # 章节文件夹
     ├── abstract.tex      # 摘要

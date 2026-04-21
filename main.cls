@@ -1,10 +1,10 @@
 % ============================================================
-% 华中杯数学建模竞赛 LaTeX 文档类模板
+% 中国大学生统计建模大赛 LaTeX 文档类模板
 % ============================================================
 % 基于 cumcmthesis 改造，适配 chapters/ 目录管理结构
 % ============================================================
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{main}[2026/03/26 v1.0 华中杯数学建模竞赛模板]
+\ProvidesClass{main}[2026/03/26 v1.0 中国大学生统计建模大赛模板]
 
 %% ------------------------------------------------------------
 %% 选项处理
@@ -251,7 +251,7 @@
     \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@}
 
 %% ------------------------------------------------------------
-%% 章节标题格式（华中杯样式）
+%% 章节标题格式（统计建模大赛样式）
 %% ------------------------------------------------------------
 \setcounter{secnumdepth}{3}
 \def\@seccntformat#1{\csname the#1\endcsname\ }
@@ -346,10 +346,10 @@
 %% 承诺书常量
 %% ------------------------------------------------------------
 \newcommand*\mcm@commit@string@headname{赛区评阅编号（由赛区组委会填写）：}
-\newcommand*\mcm@commit@string@titlea{\the\year 华中杯数学建模竞赛}
+\newcommand*\mcm@commit@string@titlea{\the\year 中国大学生统计建模大赛}
 \newcommand*\mcm@commit@string@titleb{承\hspace{1em}诺\hspace{1em}书}
 \newcommand\mcm@commit@string@contents{\quotation
-我们仔细阅读了《华中杯数学建模竞赛章程》和《华中杯数学建模竞赛参赛规则》。
+我们仔细阅读了《中国大学生统计建模大赛章程》和《中国大学生统计建模大赛参赛规则》。
 
 我们完全清楚，在竞赛开始后参赛队员不能以任何方式与队外的任何人交流、讨论与赛题有关的问题。
 
@@ -379,7 +379,7 @@
 \newcommand*\mcm@numberpage@string@headnameb{（由赛区填写）}
 \newcommand*\mcm@numberpage@string@allcountrynum{全国评阅编号：}
 \newcommand*\mcm@numberpage@string@allcountrynumb{（全国组委会填写）}
-\newcommand*\mcm@numberpage@string@titlea{\the\year 华中杯数学建模竞赛}
+\newcommand*\mcm@numberpage@string@titlea{\the\year 中国大学生统计建模大赛}
 \newcommand*\mcm@numberpage@string@titleb{编\hspace{.5em}号\hspace{.5em}专\hspace{.5em}用\hspace{.5em}页}
 \newcommand*\mcm@numberpage@string@appraiselog{赛区评阅记录（可供赛区评阅时使用）：}
 \newcommand\mcm@numberpage@string@reviewer{\shortstack{评\\ 阅\\ 人}}

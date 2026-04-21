@@ -5,7 +5,7 @@
 \usepackage[framemethod=TikZ]{mdframed}
 \usepackage{url}   % 网页链接
 \usepackage{subcaption} % 子标题
-\title{华中杯数学建模竞赛编写的 \LaTeX{} 模板}
+\title{中国大学生统计建模大赛编写的 \LaTeX{} 模板}
 % \tihao{A}
 % \baominghao{xxxx}
 % \schoolname{XX大学}
@@ -21,13 +21,9 @@
 
  \maketitle
  \begin{abstract}
-cumcmthesis 是为华中杯数学建模竞赛编写的\LaTeX{}模板, 旨在让大家专注于 论文的内容写作, 而不用花费过多精力在格式的定制和调整上. 本手册是相应的参考, 其 中提供了一些环境和命令可以让模板的使用更为方便. 同时需要注意, 使用者需要有一 定的 \LaTeX{} 的使用经验, 至少要会使用常用宏包的一些功能, 比如参考文献，数学公式，图片使用，列表环境等等. 例子文件参看 \texttt{example.tex}.
+cumcmthesis 是为中国大学生统计建模大赛编写的\LaTeX{}模板, 旨在让大家专注于 论文的内容写作, 而不用花费过多精力在格式的定制和调整上. 本手册是相应的参考, 其 中提供了一些环境和命令可以让模板的使用更为方便. 同时需要注意, 使用者需要有一 定的 \LaTeX{} 的使用经验, 至少要会使用常用宏包的一些功能, 比如参考文献，数学公式，图片使用，列表环境等等. 例子文件参看 \texttt{example.tex}.
 
 
-
-\uwave{关注我们的微信公众号}：
-
-\centerline{\includegraphics[width=6cm]{gongzhonghao2}}
 
 \keywords{\TeX{}\quad  图片\quad   表格\quad  公式}
 \end{abstract}
@@ -386,7 +382,7 @@ f(x) =
     \newblock \LaTeX {}入门\allowbreak[J].
     \newblock 电子工业出版社, 北京, 2013.
     \bibitem[2]{mathematical-modeling}
-    华中杯数学建模竞赛论文格式规范 (2020 年 8 月 25 日修改).
+    中国大学生统计建模大赛论文格式规范 (2020 年 8 月 25 日修改).
 \end{thebibliography}
 
 \newpage
@@ -394,7 +390,7 @@ f(x) =
 \begin{appendices}
 
 \section{模板所用的宏包}
-\begin{table}[htbp]
+\begin{table}[H]
     \centering
     \caption{宏包罗列}
     \begin{tabular}{ccccc}
@@ -446,9 +442,9 @@ end;end
 dd=[dd,[tmp3;tmp(tmp4,2)]];V(tmp(tmp4,3))=[];
 [mdd,ndd]=size(dd);kk=kk+1;
 end; S=ss; D=dd(1,:);
- \end{lstlisting}
+\end{lstlisting}
 
- \section{规划解决程序--lingo源代码}
+\section{规划解决程序--lingo源代码}
 
 \begin{lstlisting}[language=c]
 kk=2;
@@ -473,7 +469,7 @@ end
 end;
 S=ss;
 D=dd(1,:);
- \end{lstlisting}
+\end{lstlisting}
 \end{appendices}
 
 \end{document} 
